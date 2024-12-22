@@ -147,8 +147,6 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0-impl \
-    android.hardware.drm@1.0-service \
     android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.4.vendor
 
@@ -196,7 +194,7 @@ endif
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.base@1.0.vendor \
+    andrendor \
     android.hidl.manager@1.0
 
 PRODUCT_PACKAGES += \
